@@ -21,7 +21,7 @@ The configuration requirements for eduroam are stricter than those for regular c
 
 Please **copy the entire block** of commands below into your Terminal.
 
-**⚠️ Note: Before running, manually modify `your student ID@hkmu.edu.hk` and `your password` in the commands.**
+**⚠️ Note: Before running, manually modify `YOUR_SCHOOL_EMAIL`, `YOUR_SCHOOL_WIFI_DOMAIN`, and `YOUR_SCHOOL_EMAIL_PASSWORD` in the commands.**
 
 ```bash
 # 1. Delete old failed configurations (to prevent conflicts)
