@@ -21,7 +21,7 @@ eduroam 的配置要求比普通校園網更嚴格，且經常遇到 Linux 默�
 
 請在終端 (Terminal) 中**完整複製**以下命令塊。
 
-**⚠️ 注意：運行前請手動修改命令中的 `您的學號@hkmu.edu.hk` 和 `您的密碼`。**
+**⚠️ 注意：運行前請手動修改命令中的 `YOUR_SCHOOL_EMAIL`，`YOUR_SCHOOL_WIFI_DOMAIN` 和 `YOUR_SCHOOL_EMAIL_PASSWORD`。**
 
 ```bash
 # 1. 刪除舊的失敗配置 (防止衝突)
