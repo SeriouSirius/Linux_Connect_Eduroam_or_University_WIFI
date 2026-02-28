@@ -35,10 +35,12 @@ sudo nmcli con add \
   ssid "eduroam" \
   wifi-sec.key-mgmt wpa-eap \
   802-1x.eap peap \
-  802-1x.phase1-auth "peapver=0" \
+  802-1x.phase1-auth-peapver 0 \
+  802-1x.phase1-auth-flags 32 \
   802-1x.phase2-auth mschapv2 \
-  802-1x.identity "s1234567@hkmu.edu.hk" \
-  802-1x.password "your_password" \
+  802-1x.identity "YOUR_SCHOOL_EMAIL" \
+  802-1x.password "YOUR_SCHOOL_EMAIL_PASSWORD" \
+  802-1x.domain-suffix-match "YOUR_SCHOOL_WIFI_DOMAIN"\
   802-1x.password-flags 0 \
   802-1x.system-ca-certs no
 
@@ -84,10 +86,11 @@ sudo nmcli con add \
   ssid "HKMU" \
   wifi-sec.key-mgmt wpa-eap \
   802-1x.eap peap \
-  802-1x.phase1-auth "peapver=0" \
+  802-1x.phase1-auth-peapver 0 \
+  802-1x.phase1-auth-flags 32 \
   802-1x.phase2-auth mschapv2 \
-  802-1x.identity "s1234567" \
-  802-1x.password "your_password" \
+  802-1x.identity "YOUR_STUDENT_ID(s1234567)" \
+  802-1x.password "YOUR_PASSWORD" \
   802-1x.password-flags 0 \
   802-1x.system-ca-certs no
 
